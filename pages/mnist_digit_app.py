@@ -1,6 +1,6 @@
 import streamlit as st
 import numpy as np
-from tensorflow import load_model
+from tensorflow.keras.models import load_model
 from PIL import Image, ImageOps
 
 st.set_page_config(page_title="MNIST Digit Classifier", layout="centered")
